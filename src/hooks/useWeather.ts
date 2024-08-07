@@ -2,8 +2,8 @@ import axios from 'axios';
 import { SearchType } from '../types';
 // import { number, object, string, InferOutput, parse } from 'valibot';
 import { z } from 'zod';
-import { useState } from 'react';
-import { Weather } from '../types/index';
+import { useMemo, useState } from 'react';
+// import { Weather } from '../types/index';
 
 // TYPE Guard o ASSERTION
 /* 
@@ -28,7 +28,7 @@ const Weather = z.object({
   }),
 });
 
-type Weather = z.infer<typeof Weather>;
+export type Weather = z.infer<typeof Weather>;
 
 // Valibot
 /* const WeatherSchema = object({
@@ -92,5 +92,6 @@ export default function useWeather() {
     }
   };
 
-  return { weather, fetchWeather };
+  const hasWeatherData = useMemo(() => weather.name, [weather]);
+  return { hasWeatherData, weather, fetchWeather };
 }
