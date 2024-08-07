@@ -1,0 +1,18 @@
+:root {
+ --white: #fff;
+ --primary: #f59e0b
+}
+
+html {
+ font-size: 62.5%;
+}
+
+body {
+ height: 100vh;
+ background-image: url('/bg_clima.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+ font-family: "Outfit", sans-serif;
+ color: var(--white);
+ font-size: 2rem;
+}
