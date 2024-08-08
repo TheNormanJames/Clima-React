@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Buscador de Clima API | `React / TypeScript - CSS Modules, API's y ZOD` 👨‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Éste es un proyecto que estuve realizando a base de un curso.
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación web desarrollada con React y TypeScript que permite obtener la temperatura en tiempo real de diversas ciudades alrededor del mundo. La aplicación se conecta a una API real para obtener los datos meteorológicos y utiliza Zod para validar que los datos recibidos sean correctos. Además, se implementa un cargador para mejorar la experiencia del usuario mientras se obtienen los datos de la API. La aplicación también hace uso de CSS Modules para el estilizado y variables de entorno para manejar configuraciones sensibles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Imagen del Proyecto de Buscador de Clima API](Administrador_de_Pacientes_de_Veterinaria.jpg 'Imagen del Proyecto de Buscador de Clima API')](https://administrador-de-pacientes-react.vercel.app/)
 
-## Expanding the ESLint configuration
+[Visita el Proyecto 🤳](https://administrador-de-pacientes-react.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✨ Características clave:
 
-- Configure the top-level `parserOptions` property like this:
+### Características Clave
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **React y TypeScript**: Utilización de React para la construcción de la interfaz de usuario y TypeScript para asegurar la tipificación estática y mejorar la mantenibilidad del código.
+2. **CSS Modules**: Estilizado modular y encapsulado para evitar conflictos de nombres y mejorar la organización del código CSS.
+3. **Conexión a API Real**: Obtención de datos meteorológicos en tiempo real desde una API externa.
+4. **Validación con Zod**: Uso de Zod para validar los datos recibidos de la API, asegurando que sean correctos y cumplan con los tipos esperados.
+5. **Cargador de Datos**: Implementación de un componente de cargador para mostrar mientras se obtienen los datos de la API, mejorando la experiencia del usuario.
+6. **Variables de Entorno**: Uso de variables de entorno para manejar configuraciones sensibles como claves de API y URLs.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## ✨ Tecnologías Utilizadas:
+
+- ![react](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
+- ![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010)
+
+---
+
+## `Encuéntrame en:`
+
+[![wheniwork](https://img.shields.io/badge/Web_Site-thenormanjames.com-ca5e16?style=for-the-badge&logo=wheniwork&logoColor=white&labelColor=101010)](https://thenormanjames.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-norman_jaimes_mora-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/norman-jaimes-mora)
+</br>
+[![YouTube](https://img.shields.io/badge/YouTube-El_Profe_De_Idiomas-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/@elprofedeidiomas?sub_confirmation=1)
+[![Instagram](https://img.shields.io/badge/Instagram-@thenormanjames-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://instagram.com/the_norman_james)
+
+[![Logo Personal: The Norman James](https://raw.githubusercontent.com/TheNormanJames/thenormanjames/master/the_norman_james_logo.png 'Logo Personal: The Norman James')](https://thenormanjames.com/)
+
+<!-- https://shields.io/badges -->
+<!-- https://simpleicons.org/ -->

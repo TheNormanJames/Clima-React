@@ -10,7 +10,7 @@ function App() {
     useWeather();
   return (
     <>
-      <h1 className={styles.title}>HOla</h1>
+      <h1 className={styles.title}>Buscador de Clima</h1>
       <div className={styles.container}>
         <Form fetchWeather={fetchWeather} />
         {loading && <Spinner />}
