@@ -1,16 +1,16 @@
-# Buscador de Clima API | `React / TypeScript - CSS Modules, API's y ZOD` 👨‍💻
+# Buscador de Clima API
+
+`React / TypeScript - CSS Modules, API's y ZOD` 👨‍💻
 
 > Éste es un proyecto que estuve realizando a base de un curso.
 
 Este proyecto es una aplicación web desarrollada con React y TypeScript que permite obtener la temperatura en tiempo real de diversas ciudades alrededor del mundo. La aplicación se conecta a una API real para obtener los datos meteorológicos y utiliza Zod para validar que los datos recibidos sean correctos. Además, se implementa un cargador para mejorar la experiencia del usuario mientras se obtienen los datos de la API. La aplicación también hace uso de CSS Modules para el estilizado y variables de entorno para manejar configuraciones sensibles.
 
-[![Imagen del Proyecto de Buscador de Clima API](Administrador_de_Pacientes_de_Veterinaria.jpg 'Imagen del Proyecto de Buscador de Clima API')](https://administrador-de-pacientes-react.vercel.app/)
+[![Imagen del Proyecto de Buscador de Clima API](buscadorClimaAPI.jpg 'Imagen del Proyecto de Buscador de Clima API')](https://app-clima-react-typescript.vercel.app/)
 
-[Visita el Proyecto 🤳](https://administrador-de-pacientes-react.vercel.app/)
+[Visita el Proyecto 🤳](https://app-clima-react-typescript.vercel.app/)
 
 ## ✨ Características clave:
-
-### Características Clave
 
 1. **React y TypeScript**: Utilización de React para la construcción de la interfaz de usuario y TypeScript para asegurar la tipificación estática y mejorar la mantenibilidad del código.
 2. **CSS Modules**: Estilizado modular y encapsulado para evitar conflictos de nombres y mejorar la organización del código CSS.
